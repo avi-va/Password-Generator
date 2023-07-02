@@ -1,0 +1,45 @@
+*{
+}
+#title{
+    font-family: monospace;
+    color: #7E7C89;
+
+}
+#div1{
+    font-family: monospace;
+    background-color: #24232B;
+    height: 3vh;
+    padding: 10px;
+    font-size: large;
+    color: white;
+}
+.div2{
+    font-family: monospace;
+    background-color: #24232B; 
+    color: white;
+    padding: 10px;
+}
+#generate{
+    background-color: #A4FFAF;
+    color: black;
+    width: 27.7vw;
+    height: 6vh;
+}
+.form-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-left: 35vw;
+    margin-right: 35vw;
+}
+#strength{
+    background-color: #18171F;
+    color: #82808E;
+    padding: 15px;
+}
+
+#rangeValue{
+    color: #A4FFAF;
+    font-size: 20px;
+} 

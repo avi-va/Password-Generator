@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="form-center">
+            <h2 id="title">Password Generator</h2>
+            <input id="div1" placeholder="P4$5W0rD!" value=""><br>
+            <div class="div2">
+                <label>Character Length</label>
+                <div class="slider">
+                    <input type="range" min="0" max="16" value="0" oninput="rangeValue.innerText = this.value" id="slider"><span id="rangeValue">0</span>    
+                </div>
+                <input type="checkbox" id="uppercase" name="uppercase">
+                <label for="uppercase"> Include Uppercase Letters</label><br>
+                <input type="checkbox" id="lowercase" name="lowercase">
+                <label for="lowercase"> Include Lowercase Letters</label><br>
+                <input type="checkbox" id="number" name="number">
+                <label for="number"> Include Numbers</label><br>
+                <input type="checkbox" id="symbol" name="symbol">
+                <label for="symbol"> Include Symbols</label><br><br>
+                <p id="strength">STRENGTH</p>
+                <input type="button" value="GENERATE" id="generate">
+                <script type="module" src="script.js"></script>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
