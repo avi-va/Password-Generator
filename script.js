@@ -87,3 +87,18 @@ document.getElementById('generate').addEventListener("click", function(){
     document.getElementById('div1').value += password;
 });
 
+var button = document.getElementById("copy");
+button.addEventListener("click", function(){
+    var inputField = document.getElementById("div1");
+  
+    // Copy the value to the clipboard
+    navigator.clipboard.writeText(inputField.value)
+      .then(function() {
+        // Provide some visual feedback to the user
+        alert("Copied to clipboard: " + inputField.value);
+      })
+      .catch(function(error) {
+        // Handle error if the copy operation fails
+        console.error("Unable to copy to clipboard: ", error);
+      });
+ });
