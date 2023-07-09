@@ -10,11 +10,16 @@
     <form>
         <div class="form-center">
             <h2 id="title">Password Generator</h2>
-            <input id="div1" placeholder="P4$5W0rD!" value=""><br>
+            <div class="textarea">
+                <input id="div1" placeholder="P4$5W0rD!" readonly> 
+                <button type="button" id="copy">
+                    <span><img id="icon" src="copy.png" width="15" height="15"></span>
+                </button>
+            </div>
             <div class="div2">
-                <label>Character Length</label>
+                <label id="len">Character Length</label>
                 <div class="slider">
-                    <input type="range" min="0" max="16" value="0" oninput="rangeValue.innerText = this.value" id="slider"><span id="rangeValue">0</span>    
+                    <input type="range" min="0" max="8" value="0" oninput="rangeValue.innerText = this.value" id="slider"><span id="rangeValue">0</span>    
                 </div>
                 <input type="checkbox" id="uppercase" name="uppercase">
                 <label for="uppercase"> Include Uppercase Letters</label><br>
@@ -32,3 +37,4 @@
     </form>
 </body>
 </html>
+
