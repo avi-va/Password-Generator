@@ -1,45 +1,76 @@
 *{
+    background-color: #0C0B10;
 }
 #title{
     font-family: monospace;
     color: #7E7C89;
-
+    text-align: center;
 }
+.slider{
+    padding-top: 2vh;
+    background-color: #24232B;
+}
+#slider{
+    width: 95%;
+    margin-bottom: 2vh;
+}
+.textarea{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
 #div1{
     font-family: monospace;
+    color: white;
     background-color: #24232B;
-    height: 3vh;
+    border: none;
+    height: 5vh;
     padding: 10px;
     font-size: large;
-    color: white;
+    width: 100%;
+}
+#copy{
+    background-color: #24232B;
+    border: none;
 }
 .div2{
     font-family: monospace;
     background-color: #24232B; 
     color: white;
     padding: 10px;
+   
 }
 #generate{
     background-color: #A4FFAF;
     color: black;
-    width: 27.7vw;
+    width: 23.7vw;
     height: 6vh;
+    border: none;
 }
 .form-center{
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 15vh;
-    margin-left: 35vw;
-    margin-right: 35vw;
+    margin-left: 37vw;
+    margin-right: 37vw;
+    
 }
 #strength{
     background-color: #18171F;
     color: #82808E;
     padding: 15px;
 }
-
 #rangeValue{
     color: #A4FFAF;
     font-size: 20px;
+    background-color: #24232B;
 } 
+#icon, span, label, #len{
+    background-color: #24232B;
+}
+#uppercase, #lowercase, #number, #symbol{
+    accent-color: #A4FFAF;  
+}
+
